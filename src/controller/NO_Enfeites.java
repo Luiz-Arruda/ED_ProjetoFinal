@@ -8,5 +8,4 @@ public class NO_Enfeites {
 		this.enfeites = enfeites;
 		prox = null;
 	}
-
 }

@@ -1,25 +1,25 @@
 package controller;
 
 public class Enfeites {
-	private int codTema;
+	private String codTema;
 	private String temaEnfeite;
 	private String descricaoEnfeite;
-	private double preco;
+	private String preco;
 	
-	public Enfeites(int codTema, String TemaEnfeite, String DescricaoTema, double preco) {
+	public Enfeites(String codTema, String TemaEnfeite, String DescricaoTema, String preco) {
 		this.codTema = codTema;
 		this.temaEnfeite = temaEnfeite;
 		this.descricaoEnfeite = descricaoEnfeite;
 		this.preco = preco;
 	} // fim enfeites
 
-	public int getCodTema() {
+	public String getCodTema() {
 		return codTema;
 	}
 
-	public void setCodTema(int codTema) {
-		this.codTema = codTema;
-	}
+ 	public void setCodTema(String codTema) {
+ 		this.codTema = codTema;
+ 	}
 
 	public String getTemaEnfeite() {
 		return temaEnfeite;
@@ -37,11 +37,11 @@ public class Enfeites {
 		this.descricaoEnfeite = descricaoEnfeite;
 	}
 
-	public double getPreco() {
+	public String getPreco() {
 		return preco;
 	}
 
-	public void setPreco(double preco) {
+	public void setPreco(String preco) {
 		this.preco = preco;
 	}
 	
